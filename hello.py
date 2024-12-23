@@ -43,7 +43,11 @@ data = 15 / 3 * 2 * 2 - (3 + 4)
 # 20 - 7
 # 13
 
-number = 5
-number **= 3
+# More on float
+float = (123 + 223) / 100
+# print(float) - 3.46
+# print(round(float)) - 3
+# print(round(float, 1)) - 3.4
+# print(round(float, 2)) - 3.46
 
-print(number)
+print(16.68 * 12)
