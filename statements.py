@@ -71,3 +71,53 @@ else:
 # If True, compiler will execute line 3, 4 and 5
 # If False, it will come into else block and execute line 6 and 7
 # then execute line 8 and 9
+    
+#-------------------------------------------------------#
+    
+# Nested IF else:
+    
+veg = input("Enter vegetable name: ")
+dish = input("Enter favorite dish using the vegetable: ")
+
+if veg == "potato":
+    if dish == "potato fry":
+        print("Wow! you choosed my favourite potato and dish :)")
+    else:
+       print("Wow! you choosed my favourite potato :)") 
+elif veg == "onion" : 
+    print("Wow! you choosed my favourite onion :)") 
+else:
+    print("You choosed " + veg)
+
+# Another example for pratice:
+    
+score = int(input("Please enter the student's score. "))
+ 
+if score >= 90:
+    print("This student's score of " + str(score) + " is an A.")
+else:
+    if score >= 80:
+        print("This student's score of " + str(score) + " is a B.")
+    else:
+        if score >= 70:
+            print("This student's score of " + str(score) + " is a C.")
+        else:
+            if score >= 60:
+                print("This student's score of " + str(score) + " is a D.")
+            else:
+                print("This student's score of " + str(score) + " is a F.")
+
+#-------------------------------------------------------#
+                
+# Truthy and Falsy value
+                
+veg = input("Enter vegetable name: ")
+
+if veg:
+    print("You entered a value thanks!")
+else: 
+    print("You didnt enter any string")
+
+print(bool("apple")) # True
+
+print(bool(0)) # False
