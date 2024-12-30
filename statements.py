@@ -3,10 +3,10 @@
 # If statement:
 
 if True:
-    print("Print this!")
+    print("Print this!") # Result: this will print
 
 if False:
-    print("Not Print this!")
+    print("Not Print this!") # Result: this will not print
 
 var_1 = 100
 var_2 = 1000

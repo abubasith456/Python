@@ -27,4 +27,9 @@ Verify installation with ```python3 --version```.
 
 #### 4. Flow Control (flowControl.py)
 
+#### 5. Statements (statements.py)
+
+#### 6. String Part 2  (string_part2.py)
+
+#### 7. List (list.py)
 

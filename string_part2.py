@@ -53,3 +53,64 @@ print('apple, orange, mango'.split(','))  #Result: ['apple', ' orange', ' mango'
 print('someKey:value'.split(':')) #Result: ['someKey', 'value']
 
 
+#-------------------------------------------------------#
+
+# rjust() and ljust() - Right Just and Left Just
+
+# Add a space in front of the string and needs to give the length
+print("Hello world".rjust(15)) # Result:     Hello world
+# Add a space value as * in front
+print("Hello world".rjust(15, "*")) # Result: ****Hello world
+
+ # Add a space in end of the string and needs to give the length
+print("Hello world".ljust(15)) # Result: Hello world    
+ # Add a space value as - in end
+print("Hello world".ljust(15, "-")) # Result: Hello world----
+
+# center()
+
+# Add a space eventually for front and back of the string and needs to give the length
+print("Hello world".center(15))  # Result:   Hello world  
+# Add a space value as * in front
+print("Hello world".center(15, "*")) # Result: **Hello world**
+
+# split()
+
+print("Hello World!!!!!")
+# Removes the character
+print("Hello World!!!!!".strip("!")) # Result: Hello World
+print("Hello World!!!!!".rstrip("!")) # Result: Hello World
+print("Hello World!!!!!".lstrip("!")) # Result: Hello World!!!!!
+
+print("BlueYellowBlueYellow".lstrip("Blue")) # Result: YellowBlueYellow
+print("BlueYellowBlueYellow".rstrip("Yellow")) # Result: BlueYellowBlu
+print("blueblueyellowblue".strip("eulb")) # Result: yellow
+
+# replace()
+
+print("Hello World!".replace("!", "?")) # Result: Hello World?
+
+# len() function
+
+print(len("Hello World!")) #Result: 12
+
+
+# Excercise
+data = "Hello world!"
+dataLeng = len(data)
+reversed = ""
+
+while (dataLeng >= 1):
+    reversed += data[dataLeng - 1]
+    dataLeng -= 1
+    
+print(reversed) # Result: !dlrow olleH
+
+# formate() - comble the text by pass the strings as parms.
+
+name = input("Enter your name: ")
+age = input("Enter your native place: ")
+
+print("My name is {}, I am coming from {}".format(name, age)) # Result: My name is Abu, I am coming from Chennai
+
+
