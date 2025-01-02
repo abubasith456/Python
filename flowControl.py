@@ -1,4 +1,4 @@
-# Flow Controll
+print("------------------------ # Flow Controll ---------------------------")
 
 # Comparison Operator (only returns true or false)
 
@@ -28,11 +28,13 @@ print(var_7)
 
 #-------------------------------------------------------#
 
-# Boolean Operators:
+print("------------------------ # Boolean Operators: ---------------------------")
 
 # and 
 # or
 # not
+
+print("------------------------ # and: ---------------------------")
 
 # and: 
 # True and True = True
@@ -46,7 +48,7 @@ var_10 = 4 == 5 and 4 == 6 #Result: False
 
 print(var_8)
 
-# or:
+print("------------------------ # or: ---------------------------")
 # True and True = True
 # True and False = True
 # False and True = True
@@ -56,7 +58,7 @@ var_11 = 4 == 5 or 4 == 4  #Result: True
 var_12 = 4 == 4 or 4 == 4  #Result: True
 var_13 = 4 == 5 or 4 == 6 #Result: False
 
-# not (Vise versa):
+print("------------------------ # not (Vise versa): ---------------------------")
 
 # not True = False
 # not False = True

@@ -1,11 +1,12 @@
-# Strings
+print("------------------------ # Strings ---------------------------")
 
 string_var = "This is me!"
 
-# Access by index
+print("------------------------ # Access by index ---------------------------")
 print(string_var[8]) # Output: "m"
 print(string_var[9]) # Output: "e"
 
+print("------------------------ # String slicing ---------------------------")
 # String slicing - sequence[start:stop:step]
 text = "Apple"
 print(text[3:])   # Output: "le"
@@ -13,14 +14,13 @@ print(text[:3])   # Output: "App" (characters before index 3)
 print(text[1:4])  # Output: "ppl" (characters from index 1 to 3)
 print(text[::2])  # Output: "Ape" (every 2nd character)
 
-# Concatenation 
+print("------------------------ # Concatenation  ---------------------------")
 concatenation = "R2" + "-" + "D4"
 print(concatenation)
 print(concatenation[2])
 print(concatenation[1:4])
 
-
-## Strings Exercises
+print("------------------------ ## Strings Exercises  ---------------------------")
 to_slice = "Just do it!"
 print(to_slice[10])   # prints "!"
 print(to_slice[5:7])  # prints "do"
@@ -30,7 +30,7 @@ print("Don't " + to_slice[5:])  # prints "Don't do it!"
 
 #-------------------------------------------------------#
 
-#type() and str()
+print("------------------------ #type() and str() ---------------------------")
 
 exp_1 = "string"
 exp_2 = 100
@@ -46,7 +46,7 @@ print(type(exp_5))
 
 #-------------------------------------------------------#
 
-# Escape Sequence
+print("------------------------ # Escape Sequence ---------------------------")
 
 # "\t" - Make horizontal space
 # "\n" - Make a new line
@@ -54,13 +54,15 @@ print(type(exp_5))
 # "\\" - to add '\' into the string
 
 #-------------------------------------------------------#
-# Input
+
+print("------------------------ # Input ---------------------------")
+
 name = input("Enter your name: ")
 print("Your name is " + name + "." )
 
 #-------------------------------------------------------#
 
-# int() and float()
+print("------------------------ # int() and float() ---------------------------")
 
 int_1 = "100"
 float_1 = "1.6"

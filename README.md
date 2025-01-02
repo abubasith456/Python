@@ -33,3 +33,9 @@ Verify installation with ```python3 --version```.
 
 #### 7. List (list.py)
 
+#### 8. Dictionaries (dictionaries.py)
+
+#### 9. Tuple (tuple.py)
+
+#### 10. Sets (sets.py)
+

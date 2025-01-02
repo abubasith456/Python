@@ -1,39 +1,39 @@
-# Defining a functions
-
+print("------------------------ # Defining a functions ---------------------------")
 def function():
     print("This is function!")
 
 function()
 
-# function with parameter with default value
+print("------------------------ # function with parameter with default value ---------------------------")
 
 def function(parameter = "1"):
     print("The number is " + parameter)
 
 function("10")
 
-# function with return value
+print("------------------------ # function with return value ---------------------------")
 
 def function(parameter = "1"):
     return "The number is " + parameter
 
 print(function())
 
-# Import Modules
+print("------------------------ # Import Modules ---------------------------")
 
-# Generic Import:
+print("------------------------ 1 Generic Import: ---------------------------")
 import random
 print(random.randint(1, 100))
 
-# Function import
+print("------------------------ 2 Function import ---------------------------")
 from random import randint
 print(randint(1, 100))
 
-# Universal import
+print("------------------------ 3 Universal import ---------------------------")
+
 from random import *
 print(random())
 
-# Variable Scope
+print("------------------------ 4 Variable Scope ---------------------------")
 
 # - Local Variable dont access on global scope.
 # - Global Variable can access on Local scope.

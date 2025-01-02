@@ -1,19 +1,19 @@
-# String Method 1:
+print("------------------------ # String Method 1: ---------------------------")             
 
-# upper() and lower()
+print("------------------------ # upper() and lower() ---------------------------")
 string_var = "This is string part 2"
 
 print(string_var.upper())
 print(string_var.lower())
 
-# .isupper() and .islower()
+print("------------------------ # .isupper() and .islower() ---------------------------")
 
 string_var2 = "This is string part 2"
 
 print(string_var.islower())
 print(string_var.isupper())
 
-# Aditional extensions:
+print("------------------------ # Aditional extensions: ---------------------------")
 
 # .isalpha() - checks is only letters
 # .isalnum() - checks is only number and letters
@@ -31,14 +31,13 @@ print("The Empire Is Back".istitle()) # Result: True
 
 print("this is title".title()) # Result: This Is Title
 
-# .startswith()
-# .endswith()
+print("------------------------ # .startswith() and .endswith() ---------------------------")
 
 print("I am batman".startswith("I")) # Result: True
 print("I am batman".startswith("I am")) # Result: True
 print("I am batman".endswith("batman")) # Result: True
 
-# join()
+print("------------------------ # join() ---------------------------")
 
 print("".join(['one', 'two', 'three'])) #Result: onetwothree
 print(" ".join(['one', 'two', 'three'])) #Result: one two three
@@ -46,7 +45,7 @@ print(",".join(['one', 'two', 'three'])) #Result: one,two,three
 print(":".join(['one', 'two', 'three'])) #Result: one:two:three
 print("-".join(['one', 'two', 'three'])) #Result: one-two-three
 
-# split()
+print("------------------------ # split() ---------------------------")
 
 print('I am batman'.split()) #Result: ['I', 'am', 'batman']
 print('apple, orange, mango'.split(','))  #Result: ['apple', ' orange', ' mango']
@@ -54,6 +53,8 @@ print('someKey:value'.split(':')) #Result: ['someKey', 'value']
 
 
 #-------------------------------------------------------#
+
+print("------------------------ # rjust() and ljust() ---------------------------")
 
 # rjust() and ljust() - Right Just and Left Just
 
@@ -67,14 +68,14 @@ print("Hello world".ljust(15)) # Result: Hello world
  # Add a space value as - in end
 print("Hello world".ljust(15, "-")) # Result: Hello world----
 
-# center()
+print("------------------------ # center() ---------------------------")
 
 # Add a space eventually for front and back of the string and needs to give the length
 print("Hello world".center(15))  # Result:   Hello world  
 # Add a space value as * in front
 print("Hello world".center(15, "*")) # Result: **Hello world**
 
-# split()
+print("------------------------ # split() ---------------------------")
 
 print("Hello World!!!!!")
 # Removes the character
@@ -86,16 +87,15 @@ print("BlueYellowBlueYellow".lstrip("Blue")) # Result: YellowBlueYellow
 print("BlueYellowBlueYellow".rstrip("Yellow")) # Result: BlueYellowBlu
 print("blueblueyellowblue".strip("eulb")) # Result: yellow
 
-# replace()
+print("------------------------ # replace() ---------------------------")
 
 print("Hello World!".replace("!", "?")) # Result: Hello World?
 
-# len() function
+print("------------------------ # len() function ---------------------------")
 
 print(len("Hello World!")) #Result: 12
 
-
-# Excercise
+print("------------------------ # Excercise ---------------------------")
 data = "Hello world!"
 dataLeng = len(data)
 reversed = ""

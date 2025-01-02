@@ -1,6 +1,6 @@
-# Statements
+print("------------------------# Statements---------------------------")
 
-# If statement:
+print("------------------------# If statement:---------------------------")
 
 if True:
     print("Print this!") # Result: this will print
@@ -74,7 +74,7 @@ else:
     
 #-------------------------------------------------------#
     
-# Nested IF else:
+print("------------------------ # Nested IF else: ---------------------------")
     
 veg = input("Enter vegetable name: ")
 dish = input("Enter favorite dish using the vegetable: ")
@@ -89,7 +89,7 @@ elif veg == "onion" :
 else:
     print("You choosed " + veg)
 
-# Another example for pratice:
+print("------------------------ # Another example for pratice: ---------------------------")
     
 score = int(input("Please enter the student's score. "))
  
@@ -108,8 +108,8 @@ else:
                 print("This student's score of " + str(score) + " is a F.")
 
 #-------------------------------------------------------#
-                
-# Truthy and Falsy value
+
+print("------------------------ # Truthy and Falsy value ---------------------------")             
                 
 veg = input("Enter vegetable name: ")
 
